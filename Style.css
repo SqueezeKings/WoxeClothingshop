@@ -1,0 +1,615 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inconsolata', monospace;
+}
+header
+{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header div
+{
+    display: flex;
+    width: 90%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+header .contenedor-header
+{
+    border: 2px solid black;
+    width: 97%;
+}
+header .contenedor-header p
+{
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+header .contenedor-header input
+{
+    display: none;
+}
+.contenedor-header i
+{
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.cerrar
+{
+    display: none;
+}
+.contenedor-header nav
+{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 180px;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    display: none;
+    background-color: #fff;
+
+}
+.contenedor-header nav ul
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contenedor-header nav ul li
+{
+    font-size: 67px;
+    height: 110px;
+    letter-spacing: 3px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+.contenedor-header nav ul li:hover
+{   
+    background-color: black;
+    color: #fff;
+}
+.inicio
+{
+    width: 100%;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-inicio
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-inicio
+{
+    height: 130px;
+}
+.logo-inicio img
+{
+    height: 80px;
+}
+.botones-inicio
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 93px;
+}
+.botones-inicio button
+{
+    height: 43px;
+    background-color: #fff;
+    padding: 14px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    letter-spacing: 1px;
+}
+.botones-inicio button:hover
+{
+    background-color: black;
+    color: #fff;
+}
+.redes
+{
+    width: 100%;
+    padding-left: 14px;
+    padding-top: 35px;
+    display: flex;
+}
+.redes a
+{
+    font-size: 20px;
+    width: 30px;
+    color: black;
+}
+.main-camisas
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contenedor-camisas
+{
+    width: 410px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.contenedor-camisa
+{
+    width: 410px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contenedor-camisas div
+{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-camisas div img
+{
+    width: 98%;
+    height: 90%;
+}
+.contenedor-camisas div p
+{
+    position: relative;
+    border: 1px solid black;
+    width: 160px;
+    height: 38px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    top: 175px;
+    right: 100px;
+}
+.contenedor-camisas p
+{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.contenedor-camisas:hover
+{
+    border: 2px solid black;
+}
+.contenedor-camisas pre
+{
+    position: relative;
+    bottom: 200px;
+    left: 70px;
+    background-color: #fff;
+    border: 1px solid black;
+    font-size: 19px;
+    letter-spacing: 2px;
+    width: 150px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    
+}
+.contenedor-slider
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider
+{
+    width: 700px;
+    height: 930px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-obje
+{
+    width: 700px;
+    height: 930px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-slider
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.info-venta
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.camisa-venta
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.camisa-venta img
+{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nap  button:hover
+{
+    text-decoration: line-through;
+}
+.informacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    height: 50%;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.txt
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin: 14px;
+    height: 100%;
+}
+.txt p
+{
+    margin: 10px; 
+}
+.txt div p 
+{
+    height: 100%;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+
+}
+#menu:checked ~ .navbar
+{
+    display: initial;
+}
+#menu:checked~.menu 
+{
+    display: none;
+}
+#menu:checked~.cerrar
+{
+    display: flex;
+}
+.box-venta
+{
+
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 207px;
+    background-color: #fff;
+    display: none;
+    
+}
+
+.box-compra
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.image
+{
+    width: 83%;
+    height: 52%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 54px;
+}
+.image img
+{
+    width: 150px;
+    height: 160px;
+    margin: 0 0px 0 37px;
+}
+
+.image div p
+{
+    height: 40px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.superior
+{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.superior p
+{
+    width: 92%;
+}
+.button-buy
+{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    
+    width: 80%;
+
+}
+.button-buy button
+{
+    width: 100%;    
+    height: 70px;
+    margin: 5px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    background-color: #fff;
+    border: 4px solid black
+}
+.button-buy i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size: 24px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    color: black;
+    cursor: pointer;
+    
+}
+.volver
+{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.volver p
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.info-venta div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#bnt-add
+{
+    height: 42px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    background-color: #fff;
+    width: 60%;
+}
+.nap
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+}
+.nap button
+{
+    width: 100px;
+    height: 36px;
+    background-color: #fff;
+    border: 2px solid black;
+    margin: 0px 55px;
+}
+input
+{
+    display: none;
+}
+
+#carritomamalon
+{
+    cursor: pointer;
+}
+.costo-precio
+{
+    font-size: 85px;
+    margin: 0px 22px;
+    border: 2px solid;
+}
+.carrito
+{
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-carrito
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 25px;
+    border: 2px solid black;
+}
+.contenedor-carrito div img
+{
+    height: 135px;
+}
+.contenedor-carrito div p
+{
+    font-size: 30px;
+}
+@media (max-width: 991px)
+{
+    body
+    {
+        width: 100%;
+    }
+    header div
+    {
+        
+        width: 72%;
+
+    }
+    header div img 
+    {
+        width: 190px;
+    }
+    .contenedor-camisas
+    {
+        width: 35%;
+        height: 220px;
+        
+    }
+    .contenedor-camisa
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .contenedor-camisas p
+    {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    .slider
+    {
+        width: 590px;
+        align-items: flex-start;
+    }
+    .informacion
+    {
+        font-size: 26px;
+    }
+    .box-venta
+    {
+        
+        height: 300px;
+    }
+    .image 
+    {
+        margin-top: 30px;
+    }
+    .image img
+    {
+        width: 90px;
+        height: 95px;
+        margin: 0 0px 0 12px
+    }
+    .image div p
+    {
+        height: 40px;
+        font-size: 14px;
+        letter-spacing: 4px;
+        margin-left: 18px;
+    }
+    .superior
+    {
+        font-size: 14px;
+    }
+    .button-buy button
+    {
+        font-size: 15px;
+        height: 40px;
+        border: 2px solid black;
+    }
+    .button-buy i
+    {
+        font-size: 14px;
+        height: 50px;
+    }
+    .contenedor-header nav ul li
+    {
+        font-size: 40px;
+        height: 80px;
+    }
+    .contenedor-header i
+    {
+        width: 36px;
+        font-size: 18px;
+    }
+    header .contenedor-header
+    {
+        height: 70px;
+    }
+    .slider-obje
+    {
+        height: 794px;
+    }
+}
+
+
+

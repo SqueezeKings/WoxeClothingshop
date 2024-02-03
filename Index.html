@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/f255c45a31.js" crossorigin="anonymous"></script>
+    <title>Wox Clothing Shop</title>
+</head>
+<body>
+    
+    <header id="header" >
+        <div>
+            <p>
+                WELCOME TO OUR WEBSITE
+            </p>
+        </div>
+        <div class="contenedor-header">
+            <input type="checkbox" id="menu">
+            <label for="menu" class="menu"><i class="fa-solid fa-bars"></i></label>
+            <label for="menu" class="cerrar"><i class="fa-solid fa-xmark"></i></label>
+            <nav  class="navbar">
+                
+                <ul>
+                    <li id="btn-shop2">Shop</li>
+                    <li>Conctact</li>
+                    <li>Return Policy</li>
+                    <li>LookBook</li>
+                </ul>
+            </nav>
+            <div>
+                <img src="image/LOGO-ANIMADO.gif" alt="">
+            </div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bag-shopping" id="carritomamalon"></i>
+        </div>
+    </header>
+    <Main id="main">
+        <div class="lista" style="display: none;">
+            <ul>
+                <input type="checkbox" name="" id="all">
+                <label for="all" name="all">
+                    All
+                </label>
+
+                <li>All</li>
+                <li>Backpacks</li>
+                <li>Hoodies</li>
+                <li>Jewelry</li>
+                <li>Stickers</li>
+                <li>T-Shirts</li>
+                <li>Zip Ups</li>
+            </ul>
+        </div>
+        <div class="main-camisas" id="main-camisas">
+        </div>
+    </Main>
+    
+    <Section class="inicio" id="inicio">
+
+        <div class="contenedor-inicio">
+
+            <div class="logo-inicio">
+
+                <img src="image/LOGO.png" alt="">
+
+            </div>
+            <div class="botones-inicio">
+
+                <button id="btn-shop">Shop</button>
+                <button>conctact</button>
+                <button>Return Policy</button>
+                <button>LookBook</button>
+
+            </div>
+            <div class="redes">
+
+                <a href="https://www.instagram.com/woxe_shop/" class="fa-brands fa-instagram"></a>
+                <a href="#" class="fa-brands fa-facebook"></a>
+                <a href="#" class="fa-brands fa-tiktok"></a>
+
+            </div>
+
+        </div>
+    
+        
+    </Section>
+    <section class="contenedor-slider" id="contenedor-slider">
+        <div class="slider">
+            <div class="slider-obje">
+                <div class="btn-slider">
+                    <div class="info-venta" id="info-venta">
+
+                    </div>
+                    <button id="bnt-add">
+                        add to cart
+                    </button>
+                    <div class="nap">
+                        <button id="previous"><i class="fa-solid fa-chevron-left"></i>Previous</button>
+                    <button id="next">Next<i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                    <div class="volver">
+                        <p id="volver">Back Home</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="box-venta" id="box-venta">
+        <div class="box-compra">
+            <div class="superior">
+                <p><i class="fa-solid fa-check"></i> Item added to your cart</p>
+                <label for="cerrarcar">
+                    <i class="fa-solid fa-x" id="cerrar-venta" ></i>
+                </label>
+                
+            </div>
+            <div class="image" id="imagen-ventas">
+                
+            </div>
+            <div class="button-buy">
+                <button id="view-cart">view cart(<span id="numero-objetos">0</span>) </button>
+                <button>Check out</button>
+                
+                <i href="#" id="seguircompra">Continue shopping</i>
+                
+            </div>
+        </div>
+    </section>
+    <section class="carrito" id="carrito" style="display: none;">
+        <div class="carrito-shop" id="carrito-shop">
+            
+            
+        </div>
+        
+        <div class="costo-precio" >
+            <p>COSTO DEL CARRITO: $ <span id="precio-compra"></span>COP</p>
+        </div>
+    </section>
+    <footer></footer>
+
+     
+    
+    
+    <script src="Script.js"></script>
+</body>
+</html>
